@@ -3,7 +3,7 @@
 
 
 
-const STORAGE_KEY = 'taskflow_taks';
+const STORAGE_KEY = 'taskflow_tasks';
 
 function saveTasks(tasks) {
   localStorage.setItem(STORAGE_KEY, JSON.stringify(tasks));
